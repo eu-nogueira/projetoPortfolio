@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name {
+    height: 450px;
+    width: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: black;
+    color: white; 
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid white;
+    font-family: 'orbitron', sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+}
+
+.selected a {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+.main-container {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.main-containerSobreMim {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding-top: 20px;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 20px;
+}
+
+.especificacao {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.texto p {
+    text-align: left;
+    font-size: 9pt;
+    width: 400px;
+    padding-left: 10px;
+    font-family: 'roboto Mono', sans-serif;
+}
+
+.texto h4 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'roboto Mono', sans-serif;
+}
+
+.fotoCorporativa {
+    width: 260px;
+    height: 400px;
+    margin-left: 13%;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgTeste a, .imgTeste3 a{
+    display: flex;
+    background-color: white;
+    width: 23%;
+    height: 80%;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.imgTeste:hover, .imgTeste3:hover {
+    opacity: 0.4;
+}
+
+.subtitulo, .subtitulo2 {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 10pt;
+}
+
+.subtitulo {
+    left: 35%;
+    font-family: 'orbitron', sans-serif;
+}
+
+.subtitulo2 {
+    right: -35%;
+    font-family: 'orbitron', sans-serif;
+}
+
+.about {
+    margin-left: 13.3%;
+    font-family: 'roboto Mono';
+}
+
+.retratos, .lifeStyle {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-top: 40px;
+}
+
+.fotos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-top: 40px;
+}
+
+.testeee {
+    height: 400px;
+    max-width: 250px;
+    margin: 50px 13%;
+}
+
+.logoWhats {
+    position: sticky;
+    bottom: 10px;
+    left: 90%;
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.imgWhatsapp {
+    width: 100px;
+}
