@@ -293,6 +293,14 @@ li a:hover {
     .main-container {
         margin-left: -37px;
     }
+
+    .retratos, .lifeStyle {
+        margin: auto;
+    }
+
+    .fotos, .fotos2 {
+        grid-template-columns: 1fr;
+    }
 }
 @media screen  and (max-width: 440px) {
     .menu {
@@ -368,12 +376,5 @@ li a:hover {
     }
     .especificacao p {
         margin-left: -85px;
-    }
-    .retrato {
-        
-    }
-
-    .lifeStyle2 {
-        
     }
 }
