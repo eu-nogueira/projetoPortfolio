@@ -288,3 +288,28 @@ li a:hover {
         margin-left: -90px;
     }
 }
+@media screen  and (max-width: 400px) {
+    .menu {
+        margin-left: 10px;
+    }
+
+    .menu a {
+        font-size: 6pt;
+    }
+
+    .especificacao p {
+        font-size: 7pt;
+        max-width: 300px;
+    }
+
+    .fotoCorporativa {
+        margin-left: -25px;
+    }
+    .especificacao h4 {
+        margin-left: -70px;
+    }
+
+    .especificacao p {
+        margin-left: -60px;
+    }
+}
