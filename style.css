@@ -288,7 +288,7 @@ li a:hover {
         margin-left: -90px;
     }
 }
-@media screen  and (max-width: 400px) {
+@media screen  and (max-width: 430px) {
     .menu {
         margin-left: 10px;
     }
@@ -303,13 +303,27 @@ li a:hover {
     }
 
     .fotoCorporativa {
-        margin-left: -25px;
+        margin-left: -20px;
     }
     .especificacao h4 {
-        margin-left: -70px;
+        margin-left: -74px;
     }
 
     .especificacao p {
-        margin-left: -60px;
+        margin-left: -50px;
     }
-}
+
+        @media screen  and (max-width: 400px) {
+        
+            .fotoCorporativa {
+                margin-left: -25px;
+            }
+            .especificacao h4 {
+                margin-left: -70px;
+            }
+        
+            .especificacao p {
+                margin-left: -60px;
+            }
+        }
+    }
