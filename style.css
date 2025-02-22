@@ -170,3 +170,13 @@ li a:hover {
 .imgWhatsapp {
     width: 100px;
 }
+
+.contato {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    right: 24%;
+    border-radius: 3px;
+    display: none;
+}
