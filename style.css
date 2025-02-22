@@ -184,7 +184,7 @@ li a:hover {
     display: none;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
     .menu {
         margin-left: 10%;
     }
