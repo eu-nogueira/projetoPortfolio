@@ -183,3 +183,12 @@ li a:hover {
     font-size: 9pt;
     display: none;
 }
+
+@media screen and (max-width: 1440px) {
+    .menu {
+        margin-left: 10%;
+    }
+    .especificacao {
+        margin-left: 170px;
+    }
+}
